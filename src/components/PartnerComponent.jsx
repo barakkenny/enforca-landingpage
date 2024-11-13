@@ -1,26 +1,16 @@
-// import { partners } from "@/utils/data"
-
 const PartnerComponent = () => {
-     const partners = [
-        {id: 1, img: '/robot.png', alt:'robot'},
-        {id: 2, img: '/robot.png', alt:'robot'},
-        {id: 3, img: '/robot.png', alt:'robot'},
-        {id: 4, img: '/robot.png', alt:'robot'},
-        {id: 5, img: '/robot.png', alt:'robot'},
-    ]
- 
   return (
-    <div className="px-24 py-12">
-      <h1 className="text-center text-black text-3xl font-semibold">Trusted By Professionals</h1>
-      <div className="mt-4">
-        {partners.map((partner) => {
-            <div key={partner.id}>
-            <img src={partner.img} alt={partner.alt} />
-            </div>
-        })}
-        </div>
+    <div className="px-24 py-20">
+      <h1 className="text-center text-black text-3xl font-semibold">
+        Trusted by Professionals
+      </h1>
+      <div className="flex items-center justify-center space-x-16">
+        <img className="w-30 h-24" src="/google.png" alt="google" />
+        <img className="w-50 h-30" src="/spacex.png" alt="spacex" />
+        <img className="w-28 h-30" src="/meta.png" alt="meta" />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default PartnerComponent
+export default PartnerComponent;

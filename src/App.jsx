@@ -8,7 +8,7 @@ import Services from './components/Services'
 function App() {
 
   return (
-    <div className='w-full'>
+    <div className='w-full '>
       <NavbarComponent/>
       <HeroComponent />
       <PartnerComponent />

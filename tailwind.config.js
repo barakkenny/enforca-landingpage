@@ -11,7 +11,11 @@ module.exports = {
   		},
   		colors: {
 			main: '#01008a'
-		}
+		},
+		fontFamily: {
+			sans: ['Plus Jakarta Sans', 'sans-serif'], 
+			play: [ "Playfair Display", 'serif']
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],
