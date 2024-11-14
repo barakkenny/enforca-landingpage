@@ -16,6 +16,10 @@ module.exports = {
 			sans: ['Plus Jakarta Sans', 'sans-serif'], 
 			play: [ "Playfair Display", 'serif']
 		  },
+		  screens: {
+			xxs: '320px',
+			xs:  '480px'
+		  }
   	}
   },
   plugins: [require("tailwindcss-animate")],
